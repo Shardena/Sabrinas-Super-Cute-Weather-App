@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
     <title>Sabrina's Super Cute Weather App</title>
 </head>
 <body>
     <div class="weather-app">
     <header> 
-     <form class="search-form">
+     <form class="search-form" id="search-form">
         <input type="search" 
         placeholder="Enter a city..." 
         required 
+        id = "search-form-input"
         class="search-form-input"
         />
         <input type="submit" 
@@ -25,7 +27,7 @@
     <main>
         <div class="weather-app-data">
   <div>
-    <h1 class= "weather-app-city">Paris</h1>
+    <h1 class= "weather-app-city" id="city">Paris</h1>
     <p class= "weather-app-details">
         Tuesday 14:49, scattered clouds
         <br />
@@ -46,6 +48,7 @@
     and website hosted on <a href="https://sabrinassupercuteweatherapp.netlify.app/" target="_blank">Netlify</a>.
 </footer>
 </div>
+<script src="src/index.js"></script>
 </body>
 
 </html>
