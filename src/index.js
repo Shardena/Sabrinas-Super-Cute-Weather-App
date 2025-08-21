@@ -6,7 +6,10 @@ function refreshWeather(response) {
   let windElement = document.querySelector("#wind");
   let timeElement = document.querySelector("#time");
   let date = new Date(response.data.time * 1000);
+  let iconElement = document.querySelector("#icon");
+  let iconUrl = `http://shecodes-assets.s3.amazonaws.com/api/weather/icons/${response.data.condition.icon}.png`;
    
+  console.log(response.data);
     
     cityElement.innerHTML = response.data.city;
     timeElement.innerHTML = formatDate(date);
@@ -14,6 +17,7 @@ function refreshWeather(response) {
     descriptionElement.innerHTML = response.data.condition.description;
     humidityElement.innerHTML = `${response.data.temperature.humidity}%`;
     windElement.innerHTML = `${Math.round(response.data.wind.speed)} km/h`;
+    iconElement.innerHTML = `<img src="${iconUrl}" class="weather-app-icon" />`;
 }
 
 function formatDate(date) {
