@@ -1,85 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="src/style.css" />
-    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
-    <title>Sabrina's Super Cute Weather App</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="src/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
+  <title>Sabrina's Super Cute Weather App</title>
 </head>
+
 <body>
-    <div class="weather-app">
-    <header> 
-     <form class="search-form" id="search-form">
-        <input type="search" 
-        placeholder="Enter a city..." 
-        required 
-        id = "search-form-input"
-        class="search-form-input"
-        />
-        <input type="submit" 
-        value="Search"
-        class="search-form-button"
-        />
-     </form>
+  <div class="weather-app">
+    <header>
+      <form class="search-form" id="search-form">
+        <input type="search" placeholder="Enter a city..." required id="search-form-input" class="search-form-input" />
+        <input type="submit" value="Search" class="search-form-button" />
+      </form>
     </header>
 
     <main>
-        <div class="weather-app-data">
-  <div>
-    <h1 class= "weather-app-city" id="city"></h1>
-    <p class= "weather-app-details">
-        <span id="time"></span>, 
-        <span id="description"></span>
-        <br />
-        Humidity: <strong id="humidity"></strong>, 
-        Wind: <strong id="wind"></strong>
-    </p>
-    </div>
-    <div class="weather-app-temperature-container">
-   <div id="icon">
-  <img 
-    src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
-    class="weather-app-icon"
-  />
-</div>
-
-    <div class="weather-app-temperature" id="temperature"></div>
-    <div class="weather-app-unit">°C</div>
-    </div>
-    </div>
-    <div class="weather-forecast">
-      <div class="weather-forecast-day">
-      <div class="weather-forecast-date">Tue</div>
-      <div class="weather-forecast-icon">☀️</div>
-      <div class="weather-forecast-temperatures">
-        <div class="weather-forecast-temperature">
-          <strong>17°</strong>
+      <div class="weather-app-data">
+        <div>
+          <h1 class="weather-app-city" id="city"></h1>
+          <p class="weather-app-details">
+            <span id="time"></span>,
+            <span id="description"></span>
+            <br />
+            Humidity: <strong id="humidity"></strong>,
+            Wind: <strong id="wind"></strong>
+          </p>
         </div>
-      <div class="weather-forecast-temperature">13°</div>
-    </div>
-     <div class="weather-forecast-day">
-      <div class="weather-forecast-date">Tue</div>
-      <div class="weather-forecast-icon">☀️</div>
-      <div class="weather-forecast-temperatures">
-        <div class="weather-forecast-temperature">
-          <strong>17°</strong>
-        </div>
-      <div class="weather-forecast-temperature">13°</div>
-    </div>
- 
-    </div>
+        <div class="weather-app-temperature-container">
+          <div id="icon">
+            <img src="http://shecodes-assets.s3.amazonaws.com/api/weather/icons/broken-clouds-day.png"
+              class="weather-app-icon" />
+          </div>
 
- 
+          <div class="weather-app-temperature" id="temperature"></div>
+          <div class="weather-app-unit">°C</div>
+        </div>
+      </div>
+      <div class="weather-forecast">
+        <div class="weather-forecast-day">
+          <div class="weather-forecast-date">Tue</div>
+          <div class="weather-forecast-icon">☀️</div>
+          <div class="weather-forecast-temperatures">
+            <div class="weather-forecast-temperature">
+              <strong>17°</strong>
+            </div>
+            <div class="weather-forecast-temperature">13°</div>
+          </div>
+        </div>
+        <div class="weather-forecast-day">
+          <div class="weather-forecast-date">Tue</div>
+          <div class="weather-forecast-icon">☀️</div>
+          <div class="weather-forecast-temperatures">
+            <div class="weather-forecast-temperature">
+              <strong>17°</strong>
+            </div>
+            <div class="weather-forecast-temperature">13°</div>
+          </div>
+
+        </div>
+      </div>
     </main>
 
     <footer>
-    This super cute app was coded by <a href="https://www.shecodes.io/graduates/120757-sabrina-brown" target="_blank">Sabrina Brown</a> 
-    with code hosted on <a href="https://github.com/Shardena/Sabrinas-Super-Cute-Weather-App" target="_blank">GitHub</a>
-    and website hosted on <a href="https://sabrinassupercuteweatherapp.netlify.app/" target="_blank">Netlify</a>.
-</footer>
-</div>
-<script src="src/index.js"></script>
+      This super cute app was coded by <a href="https://www.shecodes.io/graduates/120757-sabrina-brown"
+        target="_blank">Sabrina Brown</a>
+      with code hosted on <a href="https://github.com/Shardena/Sabrinas-Super-Cute-Weather-App"
+        target="_blank">GitHub</a>
+      and website hosted on <a href="https://sabrinassupercuteweatherapp.netlify.app/" target="_blank">Netlify</a>.
+    </footer>
+  </div>
+  <script src="src/index.js"></script>
 </body>
 
 </html>
