@@ -71,7 +71,7 @@ main {
 }
 
 .weather-app-icon {
-    width: 40px;      
+    width: 80px;      
     height: auto;
     display: inline-block;
 }
@@ -82,6 +82,7 @@ main {
 
 .weather-forecast {
     display: flex;
+    justify-content: space-around;
 }
 
 .weather-forecast-date {
@@ -106,10 +107,11 @@ main {
 }
 
 .weather-forecast-temperature {
-    padding: 0 3px;
+    padding: 0 4px;
 }
 
 footer {
+    text-align:center;
     padding-top: 30px;
     padding-bottom: 20px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
