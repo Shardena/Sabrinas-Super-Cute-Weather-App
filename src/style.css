@@ -1,6 +1,6 @@
 body {
     background-color: lightgoldenrodyellow;
-    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/173/548/original/super_cute_background.jpg?1757538850"); /* path to your image */
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/173/549/original/anime_pink_background_landscape.jpg?1757539155"); /* path to your image */
     background-size: cover; 
     background-repeat: no-repeat; 
     background-attachment: fixed; 
@@ -18,7 +18,7 @@ main {
 
 
 .weather-app {
-    background: lightblue;
+    background: #9C55AD;
     max-width: 600px;
     margin: 45px auto;
     padding: 40px;
@@ -64,7 +64,7 @@ main {
 }
 
 .weather-app-details strong {
-    color: rgb(224, 62, 197);
+    color: #FFFFFF;
 }
 
 .weather-app-temperature-container {
@@ -92,7 +92,7 @@ main {
 
 .weather-forecast-date {
     text-align:center;
-    color: rgba(39, 33, 66, 0.4);
+    color: #FFFFFF;
     font-size: 16px;
     line-height: 20px;
     margin-bottom: 10px;
@@ -105,7 +105,7 @@ main {
 
 .weather-forecast-temperatures {
    text-align: center;
-   color: rgb(224, 62, 197);
+   color: #FFFFFF;
    display: flex;
    justify-content: center;
    margin-top: 10px;
