@@ -1,5 +1,10 @@
 body {
     background-color: lightgoldenrodyellow;
+    background-image: url("https://s3.amazonaws.com/shecodesio-production/uploads/files/000/173/548/original/super_cute_background.jpg?1757538850"); /* path to your image */
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
